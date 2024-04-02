@@ -10,6 +10,7 @@ import Container from './componets/layout/Container'
 
 import Navbar from './componets/layout/Navbar'
 import Footer from './componets/layout/Footer'
+import Project from './componets/pages/Project'
 
 
 
@@ -24,7 +25,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/company" element={<Company />} />
-            <Route path="/newproject" element={<NewProject />}/>  
+            <Route path="/newproject" element={<NewProject />}/> 
+            <Route path="/project/:id" element={<Project />}/>   
           </Routes>
         </Container>
       <Footer/>

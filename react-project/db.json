@@ -2,14 +2,21 @@
   "projects": [
     {
       "id": "1041",
-      "name": "ProjetoTeste",
-      "budget": "50000",
+      "name": "ProjetoTeste5",
+      "budget": "200000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "4",
+        "name": "Planejamento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 200,
+      "services": [
+        {
+          "name": "Serviço 5",
+          "cost": "200",
+          "description": "Serviço novo",
+          "id": "c688f3c9-5cff-4ad5-8235-ea983b02d795"
+        }
+      ]
     }
   ],
   "categories": [
